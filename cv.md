@@ -15,3 +15,12 @@
 ## About Me
 
 _I am an aspiring frontend developer passionate about creating modern and interactive web applications. I have experience working with core frontend languages and technologies such as JavaScript, CSS, Sass, HTML, Git, and JSON. I strive for continuous learning and development to create more efficient and cross-browser solutions._ 
+
+## Skills and Proficiency:
+
+* **HTML5, CSS3, Sass**
+* **JavaScript**
+* **jQuery**, **Gulp**, **Datajs**
+* **Git, GitHub**
+* **VS Code, IntelliJ IDEA**
+* **Figma, Adobe Photoshop, InDesign**
