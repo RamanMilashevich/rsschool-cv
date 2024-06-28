@@ -73,3 +73,15 @@ Create a function that takes a string and returns the string ciphered with Rot13
   * [Udemy](https://www.udemy.com/course/webdeveloper/?couponCode=LETSLEARNNOWPP)
 * **Super Simple Dev YouTube Channel**
   * [Video Tutorial](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=50168s&ab_channel=SuperSimpleDev)
+  
+## Languages
+
+* **English**
+  * Level: A2-B1
+  * *Language mentorship through PuzzleEnglish*
+* **Polish**
+  * Level: B2
+* **Russian**
+  * Level: NATIVE
+* **Belarusian**
+  * Level: Intermediate
