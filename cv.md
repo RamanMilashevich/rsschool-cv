@@ -59,6 +59,7 @@ Create a function that takes a string and returns the string ciphered with Rot13
 ### WSB Merito University, Poznań
 * **Bachelor's Degree (Lic.), Business Management**
   * *May 2020 – July 2022*
+  
 ### Future Education
 * **WSB Merito University, Poznań**
   *Expected:*
