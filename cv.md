@@ -1,14 +1,10 @@
 ## **Raman Milashevich**
 
----
-
 ### **Junior Frontend Developer**
 
 ---
 
 ### **Contact Information**
-
----
 
 * **Location:** Warsaw, Poland
 * **Phone:** +48 577 753 711
