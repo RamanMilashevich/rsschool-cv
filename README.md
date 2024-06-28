@@ -1,1 +1,3 @@
-# [rsschool-cv](https://RamanMilashevich.github.io/rsschool-cv/cv)
+# rsschool-cv
+
+https://RamanMilashevich.github.io/rsschool-cv/cv
