@@ -12,7 +12,7 @@
     <div class="header-container">
       <nav class="nav">
         <ul class="nav-list">
-            <li class="nav-item"><a href="#profil" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
             <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
             <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
             <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
@@ -25,7 +25,7 @@
   </header>
   <main>
     <div class="container contact-info">
-      <section id="profil" class="avatar-section">
+      <section id="contacts" class="avatar-section">
         <img src="./image/CV-Photo.jpg" alt="Raman Milashevich's avatar" class="avatar">
         <h1>Raman Milashevich</h1>
         <h2>Junior Frontend Developer</h2>
@@ -76,44 +76,44 @@
             <p>ROT13 is a simple letter substitution cipher that replaces a letter with the letter 13 letters after it in the alphabet.   ROT13 is an example of the Caesar cipher.
             Create a function that takes a string and returns the string ciphered with Rot13. If there are numbers or special characters included in the string, they should be returned as they are. Only letters from the latin/english alphabet should be shifted, like in the original Rot13 “implementation”.</p>
               <pre class="my-code">
-                function rot13(message) {
-                  const input = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
-                  const output = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm';
-                  let encoded = '';
+function rot13(message) {
+  const input = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+  const output = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm';
+  let encoded = '';
 
-                  for (let i = 0; i < message.length; i++) {
-                      const char = message[i];
-                      const index = input.indexOf(char);
+  for (let i = 0; i < message.length; i++) {
+    const char = message[i];
+    const index = input.indexOf(char);
 
-                      if (index === -1) {
-                          encoded += char;
-                      } else {
-                          encoded += output[index];
-                      };
-                  };
-                  return encoded;
-                };
+    if (index === -1) {
+      encoded += char;
+    } else {
+      encoded += output[index];
+    };
+  };
+  return encoded;
+};
               </pre>
           </div>
-      </section>
-      <div class="container-education">
-        <section id="education" class="set-size">
-          <div>
-            <h2>Education</h2>
-            <div class="education-section">
+        </section>
+        <div class="container-education">
+          <section id="education" class="set-size">
+            <div>
+              <h2>Education</h2>
+              <div class="education-section">
                 <div class="education-item">
-                    <h3>WSB Merito University, Poznań</h3>
-                    <p class="degree">Bachelor’s Degree (Lic.), Business Management</p>
-                    <p class="duration">May 2020 – July 2022</p>
+                  <h3>WSB Merito University, Poznań</h3>
+                  <p class="degree">Bachelor’s Degree (Lic.), Business Management</p>
+                  <p class="duration">May 2020 – July 2022</p>
                 </div>
                 <div class="education-item">
-                    <h3>Future Education</h3>
-                    <p>WSB Merito University, Poznań</p>
-                    <p class="degree">Master’s Degree (Mgr), Modern Business Services Management</p>
-                    <p class="duration">October 2022 – July 2024</p>
+                  <h3>Future Education</h3>
+                  <p>WSB Merito University, Poznań</p>
+                  <p class="degree">Master’s Degree (Mgr), Modern Business Services Management</p>
+                  <p class="duration">October 2022 – July 2024</p>
                 </div>
+              </div>
             </div>
-          </div>
           </section>
           <section id="course" class="set-size">
             <h2>Courses and Trainings</h2>
