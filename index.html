@@ -29,8 +29,104 @@
         <h1>Raman Milashevich</h1>
         <h2>Junior Frontend Developer</h2>
       </section>
+      <hr class="section-divider">
+      <div class="section-container">
+        <div class="container-info">
+          <section id="contscts" class="set-size">
+            <h2>Contact Information</h2>
+            <ul>
+              <li><strong>Location:</strong> Warsaw, Poland</li>
+              <li><strong>Phone:</strong> +48 577 753 711</li>
+              <li><strong>Email:</strong> <a href="mailto:Roma.Milashevich@gmail.com">Roma.Milashevich@gmail.com</a></li>
+              <li><strong>GitHub:</strong> <a href="https://github.com/RamanMilashevich" target="_blank">RamanMilashevich</a></li>
+              <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ramanmilashevich" target="_blank">Raman Milashevich</a></li>
+            </ul>
+          </section>
+          <section id="summary" class="set-size">
+            <h2>About Me</h2>
+            <p class="italic">I am an aspiring frontend developer passionate about creating modern and interactive web applications. I have experience working with core frontend languages and technologies such       as JavaScript, Angular, CSS, Sass, HTML, Git, and JSON. I strive for continuous learning and development to create more efficient and cross-browser solutions.</p>
+          </section>
+        </div>
+        <div class="container-skils">
+          <section id="skills" class="set-size">
+            <h2>Skills and Proficiency</h2>
+            <ul>
+                <li>HTML5, CSS3, Sass</li>
+                <li>JavaScript</li>
+                <li>Angular</li>
+                <li>jQuery, Gulp, Datajs</li>
+                <li>Git, GitHub</li>
+                <li>VS Code, Figma, Adobe Photoshop, InDesign</li>
+            </ul>
+            </section>
+            <section id="languages" class="set-size">
+              <h2>Languages</h2>
+              <ul>
+                  <li>English - Level: A2-B1 (Language mentorship through PuzzleEnglish)</li>
+                  <li>Polish - Level: B2</li>
+                  <li>Russian - Level: NATIVE</li>
+                  <li>Belarusian - Level: Intermediate</li>
+              </ul>
+            </section>
+        </div>
+      </div>
+    </div>
     </div>
   </main>
   <footer></footer>
 </body>
 </html>
+
+<section id="code">
+  <h2>Code Example</h2>
+  <div class="code-example">
+    <p>ROT13 is a simple letter substitution cipher that replaces a letter with the letter 13 letters after it in the alphabet.   ROT13 is an example of the Caesar cipher.
+    Create a function that takes a string and returns the string ciphered with Rot13. If there are numbers or special characters included in the string, they should be returned as they are. Only letters from the latin/english alphabet should be shifted, like in the original Rot13 “implementation”.</p>
+      <pre class="my-code">
+function rot13(message) {
+const input = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+const output = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm';
+let encoded = '';
+
+for (let i = 0; i &lt; message.length; i++) {
+const char = message[i];
+const index = input.indexOf(char);
+
+if (index === -1) {
+encoded += char;
+} else {
+encoded += output[index];
+};
+};
+return encoded;
+};
+      </pre>
+  </div>
+</section>
+<div class="container-education">
+  <section id="education" class="set-size">
+    <div>
+      <h2>Education</h2>
+      <div class="education-section">
+        <div class="education-item">
+          <h3>WSB Merito University, Poznań</h3>
+          <p class="degree">Bachelor’s Degree (AB), Business Management</p>
+          <p class="duration">May 2020 – July 2022</p>
+          <br>
+          <h3>WSB Merito University, Poznań</h3>
+          <p class="degree">Master’s Degree (MA), Modern Business Services Management</p>
+          <p class="duration">October 2022 – July 2024</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="course" class="set-size">
+    <h2>Courses and Trainings</h2>
+    <ul>
+      <li> <a href="https://app.rs.school/certificate/bn81m8ds" target="_blank">RSSchool - JS/FE Pre-School 2024Q2</a></li>
+      <li>JavaScript Full Course, Udemy</li>
+      <li>Web Developer Course, Udemy</li>
+      <li>Super Simple Dev YouTube Channel, Video Tutorial</li>
+    </ul>
+  </section>
+</div>
