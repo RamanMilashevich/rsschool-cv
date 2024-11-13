@@ -43,3 +43,43 @@ li {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.avatar-section {
+  text-align: center;
+
+}
+ 
+.contact-info {
+  margin-top: 40px;
+  text-align: left;
+
+}
+
+.section-divider {
+  border: none; 
+  height: 4px; 
+  background-color: #9ab2a0; 
+  margin: 20px 0; 
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+.contact-info {
+  margin-bottom: 20px;
+}
