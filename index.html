@@ -25,7 +25,7 @@
   <main>
     <div class="container contact-info">
       <section id="contacts" class="avatar-section">
-        <img src="./image/CV-image.jpeg" alt="Raman Milashevich's avatar" class="avatar">
+        <img src="./image/CV-Photo.jpg" alt="Raman Milashevich's avatar" class="avatar">
         <h1>Raman Milashevich</h1>
         <h2>Junior Frontend Developer</h2>
       </section>
@@ -69,64 +69,33 @@
               </ul>
             </section>
         </div>
-      </div>
-    </div>
-    </div>
+        <section id="code">
+          <h2>Code Example</h2>
+          <div class="code-example">
+            <p>ROT13 is a simple letter substitution cipher that replaces a letter with the letter 13 letters after it in the alphabet.   ROT13 is an example of the Caesar cipher.
+            Create a function that takes a string and returns the string ciphered with Rot13. If there are numbers or special characters included in the string, they should be returned as they are. Only letters from the latin/english alphabet should be shifted, like in the original Rot13 “implementation”.</p>
+              <pre class="my-code">
+function rot13(message) {
+  const input = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+  const output = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm';
+  let encoded = '';
+
+  for (let i = 0; i &lt; message.length; i++) {
+    const char = message[i];
+    const index = input.indexOf(char);
+
+    if (index === -1) {
+      encoded += char;
+    } else {
+      encoded += output[index];
+    };
+  };
+  return encoded;
+};</pre>
+          </div>
+        </section>
   </main>
   <footer></footer>
 </body>
 </html>
 
-<section id="code">
-  <h2>Code Example</h2>
-  <div class="code-example">
-    <p>ROT13 is a simple letter substitution cipher that replaces a letter with the letter 13 letters after it in the alphabet.   ROT13 is an example of the Caesar cipher.
-    Create a function that takes a string and returns the string ciphered with Rot13. If there are numbers or special characters included in the string, they should be returned as they are. Only letters from the latin/english alphabet should be shifted, like in the original Rot13 “implementation”.</p>
-      <pre class="my-code">
-function rot13(message) {
-const input = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
-const output = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm';
-let encoded = '';
-
-for (let i = 0; i &lt; message.length; i++) {
-const char = message[i];
-const index = input.indexOf(char);
-
-if (index === -1) {
-encoded += char;
-} else {
-encoded += output[index];
-};
-};
-return encoded;
-};
-      </pre>
-  </div>
-</section>
-<div class="container-education">
-  <section id="education" class="set-size">
-    <div>
-      <h2>Education</h2>
-      <div class="education-section">
-        <div class="education-item">
-          <h3>WSB Merito University, Poznań</h3>
-          <p class="degree">Bachelor’s Degree (AB), Business Management</p>
-          <p class="duration">May 2020 – July 2022</p>
-          <br>
-          <h3>WSB Merito University, Poznań</h3>
-          <p class="degree">Master’s Degree (MA), Modern Business Services Management</p>
-          <p class="duration">October 2022 – July 2024</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="course" class="set-size">
-    <h2>Courses and Trainings</h2>
-    <ul>
-      <li> <a href="https://app.rs.school/certificate/bn81m8ds" target="_blank">RSSchool - JS/FE Pre-School 2024Q2</a></li>
-      <li>JavaScript Full Course, Udemy</li>
-      <li>Web Developer Course, Udemy</li>
-      <li>Super Simple Dev YouTube Channel, Video Tutorial</li>
-    </ul>
-  </section>
-</div>
