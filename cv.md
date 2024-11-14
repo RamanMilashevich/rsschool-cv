@@ -53,3 +53,17 @@ Create a function that takes a string and returns the string ciphered with Rot13
       return encoded;
   };
 ```
+
+## Education
+
+### WSB Merito University, Poznań
+* **Bachelor's Degree (Lic.), Business Management**
+  * *May 2020 – July 2022*
+* **Master's Degree (Mgr), Modern Business Services Management**
+  * *October 2022 – July 2024*
+  
+### Future Education
+* **WSB Merito University, Poznań**
+  *Expected:*
+* **Master's Degree (Mgr),  Project Management with a focus on Junior Product Management**
+  * *October 2024 – July 2026*
