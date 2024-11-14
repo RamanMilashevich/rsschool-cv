@@ -67,3 +67,26 @@ Create a function that takes a string and returns the string ciphered with Rot13
   *Expected:*
 * **Master's Degree (Mgr),  Project Management with a focus on Junior Product Management**
   * *October 2024 – July 2026*
+
+## Courses and Trainings
+
+* **JS/FE PRE-SCHOOL 2024Q2 (JAVASCRIPT)e**
+  * [RS School](https://app.rs.school/certificate/bn81m8ds)
+* **JavaScript Full Course**
+  * [Udemy](https://www.udemy.com/course/javascript_full/?couponCode=LETSLEARNNOWPP)
+* **Web Developer Course**
+  * [Udemy](https://www.udemy.com/course/webdeveloper/?couponCode=LETSLEARNNOWPP)
+* **Super Simple Dev YouTube Channel**
+  * [Video Tutorial](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=50168s&ab_channel=SuperSimpleDev)
+  
+## Languages
+
+* **English**
+  * Level: A2-B1
+  * *Language mentorship through PuzzleEnglish*
+* **Polish**
+  * Level: C1
+* **Russian**
+  * Level: NATIVE
+* **Belarusian**
+  * Level: Intermediate
